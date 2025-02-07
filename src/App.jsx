@@ -12,7 +12,7 @@ export default function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Chats />} />
+          <Route path="/ima-frontend-preview" element={<Chats />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/chats" element={<Chats />} />
           <Route path="/group" element={<Group />} />
